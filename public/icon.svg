@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Naman Soni">
+  <rect width="64" height="64" rx="14" fill="#17130f"/>
+  <path d="M18 46V18h6l16 20V18h6v28h-6L24 26v20z" fill="#faf7f2"/>
+  <rect x="18" y="50" width="28" height="3" rx="1.5" fill="#c2410c"/>
+</svg>
