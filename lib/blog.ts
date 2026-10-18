@@ -93,3 +93,490 @@ POSTS.push(
     related: ['ai-voice-generator-indian-languages', 'free-photo-editor-comparison', 'remove-vocals-from-song-free'],
   },
 );
+POSTS.push(
+  {
+    slug: 'ai-voice-generator-indian-languages',
+    title: 'Free AI Voice Generator for Hindi, Marathi, Tamil and 19 More Indian Languages',
+    description:
+      'How to turn text into natural speech in 22 Indian languages for free — voices, speed control, browser vs cloud engines, and what to look for in a text-to-speech tool.',
+    date: '2026-01-08',
+    author: 'Naman Soni',
+    tags: ['Text to Speech', 'AI Voice', 'Indian Languages', 'Accessibility'],
+    readingMinutes: 8,
+    sections: [
+      {
+        body: [
+          'Text-to-speech used to mean one robotic English voice reading a PDF. In 2026 it means Hindi narration for a YouTube video, Marathi study material for a student, Tamil audio for an exam-notice, Bengali voiceovers for a reel — and it can all be done free, in a browser tab.',
+          'This guide covers how Indian-language text-to-speech actually works, what separates a usable voice generator from a demo, and how to get natural results on the first try.',
+        ],
+      },
+      {
+        heading: 'Why Indian-language TTS is harder than English',
+        body: [
+          'English TTS has had decades of tuning and an enormous corpus. Indian languages are more varied: Devanagari, Tamil, Telugu, Bengali and Gujarati scripts each carry different phonetics, and code-mixed Hinglish sentences — the way most people actually write — are a specific hard case.',
+          'That is why a tool that claims \"supports Indian languages\" is not enough. The useful questions are: how many languages, how many voices per language, can you control the speaking rate, and does it handle mixed script without choking.',
+        ],
+      },
+      {
+        heading: 'The features that matter',
+        body: [
+          'Language breadth: 22 Indian languages is the practical ceiling worth looking for, covering the scheduled languages plus the ones people actually write in. Fewer than that and you will hit a wall eventually.',
+          'Voice variety: a handful of voices per language, ideally with male and female options, so narration does not sound identical to every other video you publish.',
+          'Speed control: a range from about 0.5x for language learners to 2x for speed-listening. For students in particular, slowing a passage down is the single most valuable feature and it is missing from most free tools.',
+          'A local fallback engine: cloud voices sound best, but an in-browser engine that runs without a network keeps the tool working when connectivity does not.',
+        ],
+      },
+      {
+        heading: 'Getting natural results, not robotic ones',
+        body: [
+          'Punctuation is prosody. Commas create pauses and full stops create rests; a wall of unpunctuated text reads flat no matter how good the model is. Add punctuation before you generate.',
+          'Break long passages into sentences. Very long strings degrade on every engine; keeping sentences under roughly 200 characters keeps intonation natural.',
+          'Match speed to content. News and announcements read well near 1x, technical material is clearer at 0.85x, and casual content can go above 1.1x without sounding rushed.',
+          'Where the option exists, prefer native script over romanised text — a Tamil word written phonetically in Latin letters will mostly be guessed, while the Tamil script will mostly be right.',
+        ],
+      },
+      {
+        heading: 'What you can build with free Indian-language TTS',
+        body: [
+          'Students use it to turn notes into audio for revision. Creators use it for voiceovers where hiring a narrator per language is not realistic. Small businesses use it for IVR-style announcements and accessibility. Teachers use it to make reading material available to learners who struggle with text.',
+          'LND AI covers exactly this ground: 22 Indian languages, 40+ voices, speed from 0.5x to 2x, and a free in-browser engine alongside the higher-quality cloud voices. It is free to start and needs no account to try.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Is free Indian-language text to speech actually usable?',
+        a: 'Yes, for narration, study material and voiceovers. Quality varies by language and voice, so test a short paragraph in your target language before producing a long recording.',
+      },
+      {
+        q: 'How many Indian languages should a TTS tool support?',
+        a: '22 covers the scheduled languages and the common code-mixed use cases. Anything meaningfully below that will limit you.',
+      },
+      {
+        q: 'Can I slow down the voice for learning?',
+        a: 'Choose a tool with explicit speed control — LND AI offers roughly 0.5x to 2x, which is the range language learners actually need.',
+      },
+    ],
+    related: ['best-free-ai-tools-2026', 'free-translation-tools-indian-languages'],
+  },
+);
+POSTS.push(
+  {
+    slug: 'free-photo-editor-comparison',
+    title: 'Free Online Photo Editors Compared: Onyx vs Canva vs Photopea vs Pixlr',
+    description:
+      'A hands-on comparison of free browser photo editors — background removal, AI editing, layers, export options — and which one to open for which job.',
+    date: '2026-01-11',
+    author: 'Naman Soni',
+    tags: ['Photo Editor', 'AI Tools', 'Design', 'Comparison'],
+    readingMinutes: 9,
+    sections: [
+      {
+        body: [
+          'You need to edit a photo and you are not going to install Photoshop for it. The question is which browser editor to open — and the honest answer is that they specialise. This comparison cuts to what each one is genuinely best at.',
+        ],
+      },
+      {
+        heading: 'The jobs people actually open an editor for',
+        body: [
+          'Almost every casual edit falls into one of five buckets: remove a background, retouch and brighten, add text or a sticker, crop and resize to a platform ratio, or convert and compress for the web. Pick your editor by which bucket you are in.',
+        ],
+      },
+      {
+        heading: 'Onyx — the AI-first all-rounder',
+        body: [
+          'Onyx is built around AI editing: remove backgrounds, erase objects, retouch portraits and upscale — the operations that used to require either skill or paid plugins. It is fast, runs in the browser, and keeps the interface close to a single obvious action: upload, edit, export.',
+          'It is the right first stop for creators processing social images, e-commerce listings and thumbnails, where the bottleneck is the AI cleanup rather than fine manual retouching.',
+        ],
+      },
+      {
+        heading: 'Canva — templates over precision',
+        body: [
+          'Canva wins on templates, brand kits and presentation-style layouts. If your task is \"make a post that looks designed\" rather than \"retouch this photograph\", it is quicker than anything else here. The trade-off is pixel-level control: Canva is a layout tool that happens to edit images.',
+        ],
+      },
+      {
+        heading: 'Photopea — the Photoshop clone',
+        body: [
+          'Photopea replicates the classic desktop editor almost feature for feature, including layers, layer masks, blending modes and PSD import. If you already know Photoshop shortcuts, it is free muscle memory. It is the most powerful of the four and the least forgiving for a casual edit.',
+        ],
+      },
+      {
+        heading: 'Pixlr — the quick retouch',
+        body: [
+          'Pixlr splits into a simple editor and a fuller one, with a decent set of one-click effects. It sits between Canva and Photopea: more image-editing muscle than Canva, less learning curve than Photopea.',
+        ],
+      },
+      {
+        heading: 'Which should you use?',
+        body: [
+          'Use Onyx when AI can do the work — background removal, object erasing, upscaling, portrait retouching. Use Canva when you need a designed layout fast. Use Photopea when you need real precision and layers. Use Pixlr for a fast manual retouch.',
+          'For most people the practical workflow is Onyx for the heavy lifting and a layout tool only when a design template is genuinely required. Both live in the same free-tools universe this site documents, alongside the rest of Naman Soni\\'s browser apps.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'What is the best free online photo editor?',
+        a: 'It depends on the job: Onyx for AI operations like background removal and upscaling, Photopea for layer-based precision, Canva for templates, Pixlr for quick retouching.',
+      },
+      {
+        q: 'Can I remove a photo background for free?',
+        a: 'Yes. Onyx removes backgrounds automatically in the browser with no download and no account required to start.',
+      },
+    ],
+    related: ['remove-background-from-image-free', 'best-free-ai-tools-2026'],
+  },
+);
+
+POSTS.push(
+  {
+    slug: 'remove-vocals-from-song-free',
+    title: 'How to Remove Vocals From a Song for Free (Karaoke & Stem Separation Guide)',
+    description:
+      'A practical guide to removing vocals from any song using AI stem separation — what works, what it costs, and how to make clean karaoke or instrumental tracks at home.',
+    date: '2026-01-13',
+    author: 'Naman Soni',
+    tags: ['Audio', 'Karaoke', 'AI Tools', 'Music'],
+    readingMinutes: 8,
+    sections: [
+      {
+        body: [
+          'Making an instrumental from a song used to be an exercise in phase cancellation — flip the stereo channels and hope the vocals mostly disappear. It sounded like a cheap karaoke machine. AI stem separation changed that: modern models identify the voice and rebuild the rest, so the instrumental is clean.',
+        ],
+      },
+      {
+        heading: 'How AI vocal removal actually works',
+        body: [
+          'A separation model is trained on thousands of mixed songs where the individual stems are known. It learns what a vocal sounds like versus what drums, bass and other instruments sound like, and then estimates each source from the mixture. The result is four stems — vocals, drums, bass, other — instead of one flattened track.',
+          'Because it is a learned estimate rather than a filter, quality depends on the model and the source. Pop mixes with a centred, well-recorded vocal separate beautifully. Dense, distorted mixes with heavy reverb are harder for any model.',
+        ],
+      },
+      {
+        heading: 'Getting a clean karaoke track',
+        body: [
+          'Start from the highest-quality audio you have — a lossless file if possible, not a 128 kbps stream. Compression artefacts confuse the model.',
+          'Separate first, then decide. Exporting both the instrumental and the isolated vocal gives you options: instrumental for karaoke, vocal for a remix or a practice track.',
+          'Expect some bleed at the quiet parts. If a phrase still shows faint vocal, a short fade or a light EQ cut around 1–3 kHz usually cleans it up.',
+        ],
+      },
+      {
+        heading: 'Free vs paid separation',
+        body: [
+          'Desktop tools like the open-source Demucs family give excellent results and cost nothing but patience and a GPU. Cloud services charge per minute but need no hardware. Browser-based tools are the fastest route when you want one song done now without installing anything.',
+          'For the occasional karaoke track, a free browser tool is the right answer. Gaana Banana brings music and audio tools into a browser studio — generate, transform and work with tracks without a desktop app — which is the practical middle ground.',
+        ],
+      },
+      {
+        heading: 'Where separated stems are useful',
+        body: [
+          'Karaoke and sing-alongs, practice tracks for musicians learning a part, remixes and mashups, sampling, and cleaning up recordings where one instrument or voice needs treatment. Once you have stems, a whole class of editing opens up that a mixed file never allowed.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Can I remove vocals from a song for free?',
+        a: 'Yes. AI stem separation models remove vocals from most songs accurately, and free browser tools let you do it without installing anything.',
+      },
+      {
+        q: 'Will the instrumental be perfect?',
+        a: 'Usually close on well-produced pop tracks; dense or heavily reverbed mixes may retain faint vocal artefacts. Start from the best-quality source file for the cleanest result.',
+      },
+    ],
+    related: ['best-free-ai-tools-2026', 'ai-voice-generator-indian-languages'],
+  },
+);
+POSTS.push(
+  {
+    slug: 'free-two-factor-authenticator-guide',
+    title: 'Free Two-Factor Authentication in Your Browser: A Practical 2FA Guide',
+    description:
+      'How to set up free two-factor authentication without an app store install — TOTP, HOTP, QR import, encrypted sync and backup, explained for normal people.',
+    date: '2026-01-15',
+    author: 'Naman Soni',
+    tags: ['Security', '2FA', 'Privacy', 'Guide'],
+    readingMinutes: 9,
+    sections: [
+      {
+        body: [
+          'Two-factor authentication is the single highest-value security change most people can make, and it is still something a surprising number of accounts lack. The usual objection is friction: another app, another account, another thing to lose. None of that is necessary.',
+          'This guide explains how 2FA actually works, why a browser-based authenticator is a legitimate choice, and how to set it up so you are never locked out.',
+        ],
+      },
+      {
+        heading: 'What 2FA is actually protecting you from',
+        body: [
+          'Your password is a single secret, and it leaks constantly — through reused passwords, breaches and phishing. A second factor is something an attacker with your password does not have: a time-based code generated on a device only you hold.',
+          'TOTP (time-based one-time password) is the dominant standard. Your device and the server share a secret, and both derive a fresh six-digit code every thirty seconds from that secret plus the current time. Nothing travels between them except the code, and an intercepted code is useless thirty seconds later.',
+        ],
+      },
+      {
+        heading: 'Why a browser authenticator is fine',
+        body: [
+          'A phone app is not magically more secure than a browser one. What matters is where the secret lives and whether it is encrypted. A well-built browser authenticator stores secrets locally by default, supports a guest mode so you can use it with no account at all, and only syncs — encrypted — if you choose to.',
+          'The practical advantage is portability. A web authenticator works on any device you can open a browser on, including the laptop you are already using, which is exactly where you log in most often.',
+        ],
+      },
+      {
+        heading: 'Setting up a second factor in three steps',
+        body: [
+          'One: in the service you are protecting, choose \"set up authenticator app\" and copy the setup key (or scan the QR code). Two: paste the key into your authenticator vault — QR import handles services that only show a code. Three: enter the generated code back into the service to confirm, and you are done; from then on you tap to copy a fresh code whenever you sign in.',
+          'Do this for the accounts that matter first: email, if your email can reset other passwords; your password manager; banking; and any account that holds payment details.',
+        ],
+      },
+      {
+        heading: 'Backups: the part everyone skips',
+        body: [
+          'The common 2FA disaster is losing the device and therefore the codes. A proper authenticator gives you a way out: an exportable backup, ideally as a QR code you can print or store offline, and encrypted sync so a second device already has your vault.',
+          'Print the backup, put it somewhere physically safe, and treat it like the spare key to your digital life. It costs one minute now and saves your accounts later.',
+        ],
+      },
+      {
+        heading: 'A free option worth knowing',
+        body: [
+          '2FA Authenticator covers the full workflow: every standard 2FA type, a three-step setup, guest use without an account, optional encrypted account sync, QR backup and restore, and zero-friction code copying. It is free, lives in the browser, and is part of the same family of tools this site indexes.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Is a browser 2FA authenticator as safe as an app?',
+        a: 'Yes, if it stores secrets locally or encrypted and supports backup. The security comes from the shared secret and its storage, not from the platform it runs on.',
+      },
+      {
+        q: 'What happens if I lose my device?',
+        a: 'With a proper backup — an exported QR code or encrypted sync — you restore your codes on a new device. Without one, you fall back on the service\'s recovery codes, so always keep both.',
+      },
+      {
+        q: 'Which accounts should I protect first?',
+        a: 'Email first, because it can reset everything else. Then banking, your password manager and any account with payment details stored.',
+      },
+    ],
+    related: ['best-free-ai-tools-2026', 'browser-first-software-philosophy'],
+  },
+);
+POSTS.push(
+  {
+    slug: 'make-3d-models-in-browser-free',
+    title: 'How to Make 3D Models in Your Browser for Free (No Blender Install)',
+    description:
+      'Text-to-3D, image-to-3D and sketch-to-3D explained — how to generate usable 3D models and assets from a browser tab, and where the workflow still needs a desktop tool.',
+    date: '2026-01-17',
+    author: 'Naman Soni',
+    tags: ['3D', 'AI Tools', 'Creative', 'Tutorial'],
+    readingMinutes: 8,
+    sections: [
+      {
+        body: [
+          '3D used to require a workstation, a month of learning and a licence. Generative 3D changed the entry point: you describe what you want, or upload a picture, and get a model back. It is not a replacement for a skilled artist, but it collapses the distance between an idea and a first asset.',
+        ],
+      },
+      {
+        heading: 'The three ways to generate a 3D model',
+        body: [
+          'Text to 3D: describe an object in words and the model generates geometry and texture. Excellent for props, product mockups and prototype assets where you need something plausible fast.',
+          'Image to 3D: give it a photo or illustration and get 3D back. This works best with a single clear subject on an uncluttered background — the model has much less to infer than from a busy scene.',
+          'Sketch to 3D: start from a rough drawing and let the model interpret it into geometry. Useful when you know the shape but cannot describe it, only draw it.',
+        ],
+      },
+      {
+        heading: 'What browser 3D generation is good at',
+        body: [
+          'It is excellent for the front of a project: mood, blockouts, props, background objects, placeholder assets and concept iteration. It is fast, it needs no install, and it lets non-artists participate in 3D without learning a DCC tool.',
+          'Where it still lags is precision: exact dimensions, clean topology, rigging and production-ready UVs. For game-ready or print-ready work you will take the generated mesh into a proper tool for cleanup.',
+        ],
+      },
+      {
+        heading: 'A practical browser workflow',
+        body: [
+          'Generate several variations rather than one. Pick the closest, export it, then refine. Keep prompts specific about form, material and style — \"low-poly ceramic tea cup, matte glaze\" beats \"cup\".',
+          '3DFY is a free 3D asset generator built around exactly these three paths — text, image and sketch — and it is the quickest way to see what browser generation can do for your project before you commit to any paid pipeline.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Can I really make 3D models without installing software?',
+        a: 'Yes. Browser generators turn text, images or sketches into 3D assets you can export. For production-grade topology and rigging you still finish in a desktop tool.',
+      },
+      {
+        q: 'Is text-to-3D good enough for real projects?',
+        a: 'It is well suited to props, blockouts, mood and prototype assets. Precision work still needs a desktop modelling tool after generation.',
+      },
+    ],
+    related: ['best-free-ai-tools-2026', 'browser-first-software-philosophy'],
+  },
+);
+
+POSTS.push(
+  {
+    slug: 'link-in-bio-page-guide',
+    title: 'Build a Free Link-in-Bio Page: The Complete Guide to a Personal Links Hub',
+    description:
+      'Why every creator needs a single links page, what belongs on it, how to design one that people actually click, and how to host it free with your own branding.',
+    date: '2026-01-19',
+    author: 'Naman Soni',
+    tags: ['Links', 'Creators', 'Personal Brand', 'Guide'],
+    readingMinutes: 7,
+    sections: [
+      {
+        body: [
+          'A link-in-bio page is the smallest piece of real estate a creator owns and, per pixel, probably the most valuable. It is the one address that belongs on every platform, and it is where an audience that likes you on a platform finds the work that is actually yours.',
+        ],
+      },
+      {
+        heading: 'Why not just put links in the bio',
+        body: [
+          'Most platforms allow one link, or hide links behind a tap, or throttle anyone going off-platform. A links page solves all three: one URL that works everywhere, updated without touching fourteen profiles, with room for as many destinations as you have.',
+          'It also gives you a landing surface you control. You can see what people click, order links by importance, and change the page whenever your priorities change.',
+        ],
+      },
+      {
+        heading: 'What belongs on the page',
+        body: [
+          'Lead with the single most important destination — the thing you actually want a new visitor to do. Then your main channels, then your products or services, then anything else. Five to seven links is usually the ceiling before attention scatters.',
+          'Give each link a purpose in its label. \"Portfolio\" tells someone where the click goes; \"My stuff\" does not. If a link needs an explanation to make sense, the label is wrong.',
+        ],
+      },
+      {
+        heading: 'Designing for clicks',
+        body: [
+          'Mobile-first is not optional: the overwhelming majority of link-in-bio traffic is a phone held in one hand. Large tap targets, generous spacing and no horizontal scrolling are the whole game.',
+          'Keep contrast high, keep the page fast, and use your real identity — a face, a logo, a name — rather than a generic template so people know the page belongs to the person they clicked from.',
+        ],
+      },
+      {
+        heading: 'The Links tool',
+        body: [
+          'Links is a free, self-hosted link-in-bio builder from this portfolio: a clean personal links page you brand yourself, hosted without a subscription. It is the honest answer to paying a monthly fee for a page of buttons.',
+          'If you are building your own version, the principles above are the spec: one clear primary action, honest labels, mobile-first layout and your own identity on top.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'How many links should a link-in-bio page have?',
+        a: 'Five to seven focused destinations is usually right. Beyond that, clicks spread thin and the primary action gets lost.',
+      },
+      {
+        q: 'Can I host a links page for free?',
+        a: 'Yes. Static link pages can be hosted free on Cloudflare Pages, Netlify or GitHub Pages, which is exactly the approach the Links tool takes.',
+      },
+    ],
+    related: ['browser-first-software-philosophy', 'best-free-ai-tools-2026'],
+  },
+);
+POSTS.push(
+  {
+    slug: 'ai-companion-chat-guide',
+    title: 'AI Companion Chat in 2026: What It Is Good For and How to Use It Well',
+    description:
+      'A grounded look at AI companion chat — what it does well, what it does not, how to get useful conversations, and how private your chats really are.',
+    date: '2026-01-20',
+    author: 'Naman Soni',
+    tags: ['AI', 'Chat', 'Productivity', 'Guide'],
+    readingMinutes: 8,
+    sections: [
+      {
+        body: [
+          'AI companion chat sits somewhere between a journal, a rubber duck and a very patient friend who is also a search engine. Used well it is genuinely useful. Used as a substitute for human connection or expert advice it is not. The difference is mostly in how you approach it.',
+        ],
+      },
+      {
+        heading: 'What companion chat is genuinely good at',
+        body: [
+          'Thinking out loud. Explaining something back to a patient listener is one of the oldest ways to find out what you actually understand, and an AI will happily play that role at any hour.',
+          'Drafting and reframing. Turning a messy feeling into a message you can send, a plan you can follow, or a question you can ask a professional. It is a first pass, not a final answer.',
+          'Practising conversations. Rehearsing a difficult talk, an interview or a negotiation in a low-stakes setting genuinely helps you do it in the high-stakes one.',
+        ],
+      },
+      {
+        heading: 'What it is not',
+        body: [
+          'It is not a therapist, a doctor or a lawyer, and it should not be relied on for decisions in those domains. It is also not a relationship: it does not remember you the way a person does, and it has no stake in your life.',
+          'The honest framing is a tool for thinking, not a replacement for people. Treat its confidence as fluency, not certainty.',
+        ],
+      },
+      {
+        heading: 'Getting better conversations',
+        body: [
+          'Give context: who you are, what you have already tried, what outcome you want. Ask for the shape you want back — a list, a script, three options, a counterargument. Push back when an answer feels generic; specificity is usually hiding in the follow-up.',
+        ],
+      },
+      {
+        heading: 'Privacy expectations',
+        body: [
+          'Assume anything you type may be stored and reviewed unless the product explicitly says otherwise. A companion chat that runs in the browser and is clear about what it keeps is a reasonable default for personal conversations.',
+          'Talk AI Companion is a free browser-based companion chat in this portfolio, built as a personal, mobile-friendly space for exactly this kind of thinking-out-loud conversation.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Is AI companion chat a replacement for therapy?',
+        a: 'No. It can help you organise thoughts or rehearse conversations, but mental-health support needs a qualified human professional.',
+      },
+      {
+        q: 'Are my AI companion chats private?',
+        a: 'That depends entirely on the product. Check what it stores and whether it uses conversations for training; prefer tools that are explicit about both.',
+      },
+    ],
+    related: ['best-free-ai-tools-2026', 'browser-first-software-philosophy'],
+  },
+);
+
+POSTS.push(
+  {
+    slug: 'track-expenses-without-spreadsheets',
+    title: 'How to Track Expenses Without Spreadsheets (Digital Ledger Guide)',
+    description:
+      'A simple, honest system for tracking daily expenses and small-business accounts — why spreadsheets break down, what a ledger needs, and how to keep it running.',
+    date: '2026-01-21',
+    author: 'Naman Soni',
+    tags: ['Finance', 'Productivity', 'Khata', 'Guide'],
+    readingMinutes: 7,
+    sections: [
+      {
+        body: [
+          'Most people do not fail at tracking money because they cannot do arithmetic. They fail because the system is heavier than the habit. A spreadsheet is flexible enough to model anything, which is exactly why it slowly grows into an unmaintained monster.',
+        ],
+      },
+      {
+        heading: 'Why spreadsheets break',
+        body: [
+          'A spreadsheet has no opinion about what a transaction is. Every new category, person or account needs a column, a formula and a rule, and one stray edit can silently break a total. On a phone — which is where expense tracking actually happens — it is close to unusable.',
+        ],
+      },
+      {
+        heading: 'What a ledger actually needs',
+        body: [
+          'Three things: fast entry, per-person or per-category accounts, and a total you can trust. Anything beyond that is optional. If adding a transaction takes more than a few seconds, the system will be abandoned, so entry speed is the feature.',
+          'For small businesses and shared households, the per-person view matters most — you need to know who owes what, not just the grand total.',
+        ],
+      },
+      {
+        heading: 'Keeping the habit alive',
+        body: [
+          'Log at the moment of spending, not at the end of the day. Record the amount, who it was with and what it was for — nothing else. Review weekly rather than daily, and reconcile against your bank or wallet monthly so drift never compounds.',n        ],
+      },
+      {
+        heading: 'A free option',
+        body: [
+          'Khata is a free digital expense ledger in this portfolio: fast entry, per-person accounts, running totals, built for everyday use and small-business bookkeeping. It is the lightweight version of the spreadsheet that never grows teeth.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Is a spreadsheet or a ledger app better for expenses?',
+        a: 'For a handful of categories a spreadsheet works; for daily use and per-person accounts a purpose-built ledger is faster and harder to break.',
+      },
+      {
+        q: 'How often should I reconcile expenses?',
+        a: 'Log entries as they happen, review weekly and reconcile against your bank or wallet once a month.',
+      },
+    ],
+    related: ['best-free-ai-tools-2026', 'browser-first-software-philosophy'],
+  },
+);
