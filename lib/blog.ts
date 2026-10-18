@@ -558,7 +558,8 @@ POSTS.push(
       {
         heading: 'Keeping the habit alive',
         body: [
-          'Log at the moment of spending, not at the end of the day. Record the amount, who it was with and what it was for — nothing else. Review weekly rather than daily, and reconcile against your bank or wallet monthly so drift never compounds.',n        ],
+          'Log at the moment of spending, not at the end of the day. Record the amount, who it was with and what it was for — nothing else. Review weekly rather than daily, and reconcile against your bank or wallet monthly so drift never compounds.',
+        ],
       },
       {
         heading: 'A free option',
@@ -580,3 +581,84 @@ POSTS.push(
     related: ['best-free-ai-tools-2026', 'browser-first-software-philosophy'],
   },
 );
+POSTS.push(
+  {
+    slug: 'browser-first-software-philosophy',
+    title: 'Browser-First Software: Why the Best Tools Need No Install',
+    description:
+      'The case for browser-first software — install-free tools, instant access, data you control, and why this portfolio is built that way instead of as native apps.',
+    date: '2026-01-22',
+    author: 'Naman Soni',
+    tags: ['Product', 'Web', 'Philosophy', 'Design'],
+    readingMinutes: 6,
+    sections: [
+      {
+        body: [
+          'Ask someone to install an app and you lose most of the room. Ask them to open a link and you keep almost all of it. That single asymmetry explains why browser-first software keeps winning for everyday tools.',
+        ],
+      },
+      {
+        heading: 'The install tax',
+        body: [
+          'Every install is a decision, a download, a permission prompt and a small piece of trust spent. Native apps can earn that; most utilities cannot. A tool that loads in a tab costs the user nothing to try and nothing to uninstall.',
+          'The web also fixes distribution. One deployment reaches every platform, updates are instant, and there is no app store review standing between a fix and the person who needs it.',
+        ],
+      },
+      {
+        heading: 'Where the browser is genuinely good enough',
+        body: [
+          'Modern browsers have the APIs that used to justify native code: canvas and WebGL for graphics, Web Audio for sound, local storage and IndexedDB for data, camera and microphone for input, plus service workers for offline. For editors, generators, dashboards, ledgers and utilities, the gap has closed.',
+          'What remains genuinely native is heavy compute, long background work and deep OS integration. A browser-first product should be honest about that line rather than pretend it does not exist.',
+        ],
+      },
+      {
+        heading: 'Local-first as the default',
+        body: [
+          'The strongest version of browser-first is local-first: your data lives on your device, the app works without a network, and sync is an explicit choice rather than a hidden dependency. It is better for the user — privacy, speed, offline — and cheaper for the developer, who is not running a database for every visitor.',
+        ],
+      },
+      {
+        heading: 'How this portfolio applies it',
+        body: [
+          'Every project in this ecosystem is browser-first: a 2FA authenticator, an expense ledger, a 3D generator, a music player, a browser agent and an AI companion, all reachable by link with no install step. The trade-off is deliberate — instant access over deep OS integration, and user-owned data over server lock-in.',
+          'This hub itself follows the same rule. It is a static site: pages that load fast, work without JavaScript for their content, and can be read by both people and search engines.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Is browser software as capable as native apps?',
+        a: 'For editors, generators, utilities and dashboards, yes. Native still wins for heavy computation, background work and deep OS integration.',
+      },
+      {
+        q: 'What does local-first mean?',
+        a: 'Your data is stored on your own device first, the app works offline, and syncing is an opt-in choice rather than a requirement.',
+      },
+    ],
+    related: ['best-free-ai-tools-2026', 'link-in-bio-page-guide'],
+  },
+);
+
+export const POSTS_SORTED: Post[] = [...POSTS].sort((a, b) =>
+  a.date < b.date ? 1 : a.date > b.date ? -1 : 0,
+);
+
+export function getPost(slug: string): Post | undefined {
+  return POSTS.find((p) => p.slug === slug);
+}
+
+export function allPostSlugs(): string[] {
+  return POSTS.map((p) => p.slug);
+}
+
+export function postsByTag(tag: string): Post[] {
+  return POSTS_SORTED.filter((p) =>
+    p.tags.some((t) => t.toLowerCase() === tag.toLowerCase()),
+  );
+}
+
+export function allTags(): string[] {
+  const set = new Set<string>();
+  for (const p of POSTS) for (const t of p.tags) set.add(t);
+  return [...set].sort();
+}
