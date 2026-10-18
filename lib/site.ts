@@ -2,8 +2,8 @@ export const SITE = {
   name: 'Naman Soni',
   title: 'Naman Soni — AI Tools, Web Apps & Browser Experiments',
   tagline: 'Builder of 14 live web apps: AI tools, developer utilities and browser experiments.',
-  url: 'https://namansoni-hub.pages.dev',
-  // Update this if the deploy is assigned a different host.
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://newera-namansoni.pages.dev',
+  // Canonical host. Override at build time with NEXT_PUBLIC_SITE_URL (e.g. a custom domain).
   author: 'Naman Soni',
   github: 'https://github.com/NamanSoni78',
   email: '',

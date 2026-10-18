@@ -24,7 +24,7 @@ const KEY = process.env.INDEXNOW_KEY || '0cf9954e1f987a7f95dfa7008dc07d78';
 const SITE_URL = (
   process.env.SITE_URL ||
   process.env.NEXT_PUBLIC_SITE_URL ||
-  'https://namansoni-hub.pages.dev'
+  'https://newera-namansoni.pages.dev'
 ).replace(/\/$/, '');
 
 const ENDPOINTS = [
