@@ -1,0 +1,27 @@
+{
+  "name": "namansoni-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An all-in-one SEO hub + blog for the Naman Soni product ecosystem: 14 web apps, AI tools and browser utilities.",
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "node scripts/gen-static.mjs",
+    "build": "next build",
+    "start": "npx serve out",
+    "lint": "next lint",
+    "postbuild": "node scripts/verify-output.mjs",
+    "indexnow": "node scripts/indexnow.mjs",
+    "new-post": "node scripts/new-post.mjs"
+  },
+  "dependencies": {
+    "next": "^15.5.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}
