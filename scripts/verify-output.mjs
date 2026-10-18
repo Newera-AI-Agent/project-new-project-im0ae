@@ -95,7 +95,7 @@ ok('sitemap lists home, hub pages and every detail page');
 console.log('verify-output: llms.txt');
 const llms = readFileSync(resolve(out, 'llms.txt'), 'utf8');
 if (!llms.startsWith('# ')) fail('llms.txt does not start with a heading');
-if (!llms.includes('# Projects by category')) fail('llms.txt has no product section');
+if (!llms.includes('## Products by category')) fail('llms.txt has no product section');
 ok(`llms.txt is ${llms.split('\n').length} lines`);
 
 if (errors > 0) {
