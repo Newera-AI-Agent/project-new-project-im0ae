@@ -211,7 +211,7 @@ POSTS.push(
         heading: 'Which should you use?',
         body: [
           'Use Onyx when AI can do the work — background removal, object erasing, upscaling, portrait retouching. Use Canva when you need a designed layout fast. Use Photopea when you need real precision and layers. Use Pixlr for a fast manual retouch.',
-          'For most people the practical workflow is Onyx for the heavy lifting and a layout tool only when a design template is genuinely required. Both live in the same free-tools universe this site documents, alongside the rest of Naman Soni\\'s browser apps.',
+          'For most people the practical workflow is Onyx for the heavy lifting and a layout tool only when a design template is genuinely required. Both live in the same free-tools universe this site documents, alongside the rest of Naman Soni\'s browser apps.',
         ],
       },
     ],
