@@ -157,7 +157,7 @@ POSTS.push(
         a: 'Choose a tool with explicit speed control — LND AI offers roughly 0.5x to 2x, which is the range language learners actually need.',
       },
     ],
-    related: ['best-free-ai-tools-2026', 'free-translation-tools-indian-languages'],
+    related: ['best-free-ai-tools-2026', 'remove-vocals-from-song-free'],
   },
 );
 POSTS.push(
@@ -233,7 +233,7 @@ POSTS.push(
         a: 'Yes. Onyx removes backgrounds automatically in the browser with no download and no account required to start.',
       },
     ],
-    related: ['remove-background-from-image-free', 'best-free-ai-tools-2026'],
+    related: ['best-free-ai-tools-2026', 'browser-first-software-philosophy'],
   },
 );
 
@@ -410,6 +410,14 @@ POSTS.push(
           '3DFY is a free 3D asset generator built around exactly these three paths — text, image and sketch — and it is the quickest way to see what browser generation can do for your project before you commit to any paid pipeline.',
         ],
       },
+      {
+        heading: 'Export formats and where the model goes next',
+        body: [
+          'Most browser generators export a standard mesh format — glTF or GLB for real-time engines and the web, OBJ for maximum compatibility, sometimes STL for printing. GLB is usually the right default: it is a single file that carries geometry, materials and textures together, which is why three.js, Unity and Unreal all read it.',
+          'Once you have the file, the workflow splits by destination. For the web, drop the GLB into a viewer, keep the polygon count modest and compress textures — a 50 MB asset that takes a minute to load is worse than a simpler model that appears instantly. For games, import it and rebuild the collision and the level of detail by hand. For 3D printing, check the mesh is watertight and manifold before slicing, because generated geometry often has holes or intersecting faces that a printer cannot interpret.',
+          'A useful habit is to treat the generated model as a first draft that already has correct silhouette and texture, and to spend your time on cleanup rather than modelling from nothing. On a prop or an environment filler, that can turn a two-day task into an afternoon.',
+        ],
+      },
     ],
     faq: [
       {
@@ -469,6 +477,14 @@ POSTS.push(
           'If you are building your own version, the principles above are the spec: one clear primary action, honest labels, mobile-first layout and your own identity on top.',
         ],
       },
+      {
+        heading: 'Hosting and analytics without rent',
+        body: [
+          'A static links page needs no server. A single HTML file on any static host — Cloudflare Pages, GitHub Pages, Netlify — costs nothing at this scale and loads in well under a second. The domain is the only real expense, and it is worth it: your own name reads as more permanent than a handle on someone else\'s platform.',
+          'For measurement, resist the urge to install a heavy tracker. A lightweight, privacy-respecting analytics script or the built-in click counts of your host tell you which links matter without slowing the page or requiring a cookie banner. The point is to learn which order works, not to build a profile of your visitors.',
+          'Finally, treat the page as a living document. Reorder links when a product launches, retire ones that no longer apply, and refresh the headline seasonally. A links page that was updated last year signals a creator who stopped showing up.',
+        ],
+      },
     ],
     faq: [
       {
@@ -505,6 +521,14 @@ POSTS.push(
           'Thinking out loud. Explaining something back to a patient listener is one of the oldest ways to find out what you actually understand, and an AI will happily play that role at any hour.',
           'Drafting and reframing. Turning a messy feeling into a message you can send, a plan you can follow, or a question you can ask a professional. It is a first pass, not a final answer.',
           'Practising conversations. Rehearsing a difficult talk, an interview or a negotiation in a low-stakes setting genuinely helps you do it in the high-stakes one.',
+        ],
+      },
+      {
+        heading: 'How to choose one',
+        body: [
+          'Read the product page before you type anything personal. Three questions settle most of it: Does it need an account, and if so what does it store? Is there a clear statement about whether chats are used for training? Can you delete a conversation cleanly?',
+          'Speed and tone matter more than model names for this use case. A companion you open because it is one tap away will actually be used at midnight, when the value is highest. A technically superior tool locked behind an install and a sign-up will not.',
+          'Prefer products that are honest about their limits. A companion that says it is a thinking tool, not a clinician, is more trustworthy than one that implies emotional authority it does not have.',
         ],
       },
       {
@@ -578,6 +602,13 @@ POSTS.push(
         ],
       },
       {
+        heading: 'Categories that actually get used',
+        body: [
+          'Most people start with twenty categories and end up using six. Food, transport, bills, shopping, health and a catch-all will cover the overwhelming majority of daily spending. Keep the list short and resist splitting a category the first time it feels ambiguous — ambiguity in a category name is a sign the category is doing too much.',
+          'For a business ledger the split is different: the categories should line up with what you report, typically income, cost of goods, operating expenses and tax set-asides. Choosing them at the start saves re-labelling everything at the end of the year.',
+        ],
+      },
+      {
         heading: 'A free option',
         body: [
           'Khata is a free digital expense ledger in this portfolio: fast entry, per-person accounts, running totals, built for everyday use and small-business bookkeeping. It is the lightweight version of the spreadsheet that never grows teeth.',
@@ -631,6 +662,13 @@ POSTS.push(
         heading: 'Local-first as the default',
         body: [
           'The strongest version of browser-first is local-first: your data lives on your device, the app works without a network, and sync is an explicit choice rather than a hidden dependency. It is better for the user — privacy, speed, offline — and cheaper for the developer, who is not running a database for every visitor.',
+        ],
+      },
+      {
+        heading: 'Offline, speed and the cost of a tab',
+        body: [
+          'Two practical benefits are easy to miss. The first is speed: a browser tool that loads in a tab starts instantly, whereas a native app launch is a splash screen and a wait. The second is honest costs. Running a desktop app per user costs the developer nothing per launch, and running a server-backed web app costs something on every visit. Local-first browser software sits in the sweet spot — the reach of the web with the economics of a native app.',
+          'Offline support closes the loop. With a service worker, a browser tool can load and work with no network at all, which is why browsers are now the default home for notes, editors, ledgers and players. The user gets reliability; the developer gets a product that does not page them at 3 a.m. because a database is down.',
         ],
       },
       {
