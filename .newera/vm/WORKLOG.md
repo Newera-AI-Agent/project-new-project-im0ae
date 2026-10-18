@@ -14,3 +14,4 @@ Durable session memory for this VM job chain. Each line is one step or wind-down
 - [2026-10-18T10:14:09.792Z | VM 1/3] VERIFIED green: npm run build 2>&1 | tail -12 && echo '=== out tree ===' && find out -maxdepth 2 -type f | head -60
 - [2026-10-18T10:14:34.817Z | VM 1/3] PLAN updated: 14 steps
 - [2026-10-18T10:16:47.945Z | VM 1/3] VERIFIED green: npm run build 2>&1 | tail -8 && grep -c 'newera-namansoni' out/sitemap.xml out/feed.json out/llms.txt
+- [2026-10-18T10:18:42.759Z | VM 1/3] VERIFIED green: cp work/og-image.png public/og-image.png && ls -la public/ && npm run build 2>&1 | tail -6
