@@ -214,6 +214,14 @@ POSTS.push(
           'For most people the practical workflow is Onyx for the heavy lifting and a layout tool only when a design template is genuinely required. Both live in the same free-tools universe this site documents, alongside the rest of Naman Soni\'s browser apps.',
         ],
       },
+      {
+        heading: 'Export, format and file size',
+        body: [
+          'The detail that decides whether an edit is finished is export. JPEG at a sensible quality is right for photographs and social posts; PNG matters when you need transparency, which is most background-removal jobs; WebP wins when page weight is the priority and the target supports it.',
+          'Watch the file size your editor produces. A background-removed portrait saved as a full-resolution PNG can easily weigh several megabytes, and most platforms recompress it anyway, so export a WebP or a resized JPEG for anything going on the web. A good editor lets you set output dimensions and quality instead of dumping the original.',
+          'For e-commerce listings, export a square crop with consistent padding across the whole catalogue. Consistency across images reads as professionalism far more than any single clever edit does.',
+        ],
+      },
     ],
     faq: [
       {
@@ -271,6 +279,14 @@ POSTS.push(
         heading: 'Where separated stems are useful',
         body: [
           'Karaoke and sing-alongs, practice tracks for musicians learning a part, remixes and mashups, sampling, and cleaning up recordings where one instrument or voice needs treatment. Once you have stems, a whole class of editing opens up that a mixed file never allowed.',
+        ],
+      },
+      {
+        heading: 'Legal and ethical notes',
+        body: [
+          'Separating stems does not change who owns the song. A karaoke instrumental you make from a commercial track is fine for personal practice, a private party or a cover video where the platform has a licence, but republishing the original instrumental as your own work is not.',
+          'If you plan to publish, check how the platform you are uploading to handles music rights, and prefer cover versions or licensed instrumentals when the audience is public. The technology is neutral; the use is not.',
+          'For musicians, the more useful direction is the reverse: take your own rough mix, separate it, and use the isolated parts to fix a muddy bass or to build a reference mix. That is a workflow that never touches anyone else\'s copyright.',
         ],
       },
     ],
