@@ -602,6 +602,13 @@ POSTS.push(
         ],
       },
       {
+        heading: 'Why a mobile-first ledger wins',
+        body: [
+          'Expense tracking fails or succeeds on the phone. Spending happens on the move, and if recording a purchase means opening a laptop and finding a file, the entry will never be made. A ledger that opens in a browser tab, remembers the last category used and takes a number and a tap is a ledger that survives week three.',
+          'A browser ledger has a second advantage over a native finance app: nothing to install, nothing to update, and it works on whatever device you are holding — phone, tablet or a borrowed laptop. For a shared household or a small shop with more than one person, that means everyone can enter their own spending from their own device into the same book.',
+        ],
+      },
+      {
         heading: 'Categories that actually get used',
         body: [
           'Most people start with twenty categories and end up using six. Food, transport, bills, shopping, health and a catch-all will cover the overwhelming majority of daily spending. Keep the list short and resist splitting a category the first time it feels ambiguous — ambiguity in a category name is a sign the category is doing too much.',
